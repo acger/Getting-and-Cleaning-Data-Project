@@ -5,6 +5,7 @@ The script for creating a tidy data set from raw data (*run_analysis.R*). The sc
 
 ## Running the script
 The script uses its current directory as the working directory. As long as you are happy with this default option, you don't need to make any modifications to the script.
+All needed directories are created by the script.
 
 ## Transformation
 The scripts loads all data from *test* and *train* files. The columns for the loaded data are merged in two data frames (one for *test and one for *train*). The column names are replaced with the values in *features.txt* to make them better readable.
@@ -14,4 +15,7 @@ Finally the feature values are more summarized by creating the average for the d
 
 The detailed description of the transformations performed by the script can be found in the codebook (codebook.md).
 
+
+## Result
+The result is writte to the file *data/data2.txt*.
 
