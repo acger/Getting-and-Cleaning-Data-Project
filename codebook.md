@@ -1,10 +1,6 @@
 # Codebook
 
 ## Description
-The script for creating a tidy data set from raw data (*run_analysis.R*). The script downloads the raw data, unzips it, performs some processing and saves the result to a file.
-
-## Running the script
-The script uses its current directory as the working directory. As long as you are happy with this default option, you don't need to make any modifications to the script.
 
 ## Source data
 The source data contains sensor data from a smartphone carried by some volunteers while performing some activity like walking or sitting. The full description of the experiment and the source data set can be found here: 
