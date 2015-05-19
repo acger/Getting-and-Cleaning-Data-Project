@@ -43,10 +43,14 @@ Activity performed which is one of the following:
 * STANDING
 * LAYING
 
-### Columns
+### Feature Columns
 Mean of the original values grouped by *subject_id* and *activity_label*.
 
+#### Naming of the columns
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+* mean(): Mean value
+* std(): Standard deviation
 
 * tBodyAcc-XYZ
 * tGravityAcc-XYZ
@@ -66,8 +70,7 @@ Mean of the original values grouped by *subject_id* and *activity_label*.
 * fBodyGyroMag
 * fBodyGyroJerkMag
 
-The set of variables that were estimated from these signals are: 
 
-* mean(): Mean value
-* std(): Standard deviation
+Features are normalized and bounded within [-1,1].
+
 
